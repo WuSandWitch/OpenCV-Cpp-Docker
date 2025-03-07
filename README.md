@@ -10,6 +10,9 @@ docker build -t opencv_cpp .
 docker run -it --rm -v $(pwd):/app opencv_cpp
 ```
 
+> This will sync the folder you run with the docker bash.
+> You can directly code it inside main.cpp
+
 
 ## Run
 ```sh
