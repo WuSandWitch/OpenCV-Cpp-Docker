@@ -16,5 +16,5 @@ docker run -it --rm -v $(pwd):/app opencv_cpp
 
 ## Run
 ```sh
-./compile.sh
+./compile.sh <cpp_file>
 ```
